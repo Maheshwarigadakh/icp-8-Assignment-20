@@ -42,24 +42,59 @@
         .heading{
             padding-left:20px;
         }
+        .bottom-nevigation{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(6, 6, 64);
+            color: white;
+            display: none;
+        }
+        .bottom-nevigation-bar{
+        
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 60px;
+            border-radius: 50%;
+            padding: 10px;
+            margin-left: 60px;
+            
+            
+        }
         @media screen and (min-width: 100px) and (max-width:600px){
             .content{
             justify-content: start;
         }
+        .Sidebar{
+            display: none;
+        }
         .card{
-            width: 350px;
-            height: 170px;
+            width: 370px;
+            height: 160px;
             margin-left: 50px;
+        }
+        .bottom-nevigation{
+            display: block;justify-content: space-around;
+
         }
         }
         @media screen and (min-width: 601px) and (max-width:768px){
             .content{
             justify-content: start;
         }
+        .Sidebar{
+            display: none;
+        }
         .card{
-            width: 230px;
-            height: 230px;
+            width: 300px;
+            height: 180px;
             margin-left: 50px;
+        }
+        .bottom-nevigation{
+            display: block;
+            justify-content: space-around;
         }
         }
         @media screen and (min-width: 769px) and (max-width:900px){
@@ -137,7 +172,21 @@
                     <p class="content-para">Get lifetime access of the notes that you can refer anytime in the future. High-quality notes prepared by the instructor. No need to buy any books.</p>
                 </div>
             </div>
-            </div>
+        </div>
+    </div>
+    <div class="bottom-nevigation">
+        <a class="bottom-menu-item" href="./index.html">
+            <img src="./img/sidebar-img/home.png" class="bottom-nevigation-bar">
+        </a>
+        <a class="bottom-menu-item" href="./pages/courses.html">
+            <img src="./img/sidebar-img/homework.png" class="bottom-nevigation-bar">
+        </a>
+        <a class="bottom-menu-item" href="./pages/user.html">
+            <img src="./img/sidebar-img/user (1).png" class="bottom-nevigation-bar" height="70px">
+        </a>
+        <a class="bottom-menu-item" href=".//pages/settings.html">
+            <img src="./img/sidebar-img/settings.png" class="bottom-nevigation-bar">
+        </a>
     </div>
 </body>
 </html>
