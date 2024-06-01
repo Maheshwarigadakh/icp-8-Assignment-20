@@ -38,3 +38,6 @@ body{
     text-decoration: none;
     color: black;
 }
+.active-menu{
+    background-color: rgb(151, 151, 245);
+}
