@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.overall-view{
+    display: flex;
+}
+.Sidebar{
+    height: 100vh;
+    width: 250px;
+    background-color: rgb(9, 9, 39);
+}
+.body-content{
+    height: 100vh;
+    width: 1300px;
+    background-color: whitesmoke;
+}
